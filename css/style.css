@@ -1,0 +1,49 @@
+body{ 
+    padding: 5%;
+}  
+
+label{ 
+    margin-right: 50px;
+}
+
+.title{ 
+    margin-top: 50px ;
+}
+
+.form-group{ 
+    margin: 10px 0;
+}  
+
+.form-range{ 
+    width: 50%;
+} 
+
+#html_value, #css_value, #php_value, #js_value{ 
+    width:30px;
+} 
+
+.btn{  
+    margin-top: 30px;
+    width:200px;
+} 
+
+.error{
+	color: #af4242;
+	background-color: #fde8ec;
+	padding: 10px;
+	display: none;
+	transform: translateY(-20px);
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.success{
+	margin-bottom: 30px;
+	color: green;
+	background-color: #d2ffd2;
+	padding: 10px;
+	display: none;
+	font-size: 16px;
+}
+.success.display-success{
+	display: block;
+}
